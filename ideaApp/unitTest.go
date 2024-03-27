@@ -178,7 +178,7 @@ func prompter(prompt string) {
 
 	doesFileExist("testlogfile")
 
-	key := "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"
+	key := "YOUR KEY HERE"
 
         instance := gopenai.Setup(key)
 
